@@ -236,7 +236,7 @@ Markdown中插入链接有两种方式，一种是内联式（inline links），
 但是你有时仍会对Markdown的使用有所疑惑，比如：空行里的`---`是一个二级标题标记还是一个分隔线标记；如果列表项中出现`*`号和空格的组合，它们代表的是一个新的子列表项，还是列表项的一部分。不过这些问题你总能在不断尝试中得到你想要的样式作为答案。Markdown的语法标记很少，只知其然，不知其所以然也是够用的。
 
 所以接下来的部分，是给一些想更深入了解Markdown并且不反对标准化的使用者准备的哦~
-稍作休息，我们下次再见。
+稍作休息，我们在[下篇文章](https://github.com/TiriSane/MarkdownTutorial/blob/master/Markdown_Tutorial_2.md)再见。
 
 [T]:https://ws1.sinaimg.cn/large/005K80gply1foqkturaj6j30sg0sgkjl.jpg  "这张图片是我的另一个头像"
 [R]:https://github.com/TiriSane "这个链接是我的github主页"
