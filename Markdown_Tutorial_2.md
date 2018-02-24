@@ -41,7 +41,9 @@
 例子：
 
 <code>
-- `one<br />
+- `one
+</code>
+<code>
 - two`
 </code>
 
