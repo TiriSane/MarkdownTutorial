@@ -8,7 +8,7 @@ Markdown作为一种用于编写结构化文档的纯文本格式，它易读易
 
 其实，Html的文本已经很容易书写了，而且它功能强大，能展现出很多样式。但很显然地，Html文档并没有那么适合阅读。2004年，Markdown的作者John Gruber，使用Perl语言写出了一个markdown文档到Html文档的转换器，即Markdown.pl。Markdown语言就随着这个转换器，在BSD协议下被发布出来了。
 
-但John Gruber显然不怎么喜欢“语法律师”，他并没有规定Markdown的一些语法细节，只给出了[大概的语法][Rf1]。对于那些没有具体规定的书写规则，Markdown文本将被如何转换为Html文本，以及将以什么样子在视觉上呈现出来，这完全取决于Markdown.pl的实现。John Gruber[在推特中表示][Rf2]，正是因为没有对Markdown进行标准化，Markdown这种文档书写格式才具有很强的生命力。
+但John Gruber显然不怎么喜欢“语法律师”，他并没有规定Markdown的一些语法细节，只给出了[大概的语法](https://daringfireball.net/projects/markdown/syntax)。对于那些没有具体规定的书写规则，Markdown文本将被如何转换为Html文本，以及将以什么样子在视觉上呈现出来，这完全取决于Markdown.pl的实现。John Gruber[在推特中表示](https://twitter.com/gruber/status/507364924340060160)，正是因为没有对Markdown进行标准化，Markdown这种文档书写格式才具有很强的生命力。
 
 ![John Gruber在推特中的回应](https://ws1.sinaimg.cn/large/005K80gply1foqgal914lj30qo0gtn0d.jpg)
 
@@ -23,19 +23,25 @@ Markdown作为一种用于编写结构化文档的纯文本格式，它易读易
 ##### _斜体_
 
 在文本前后加上_或者*符号，即可把文本样式变为斜体。
+
 例子：`_Italic_`或者`*Italic*`
+
 效果：_Italic_
 
 ##### __加粗__
 
 在文本前后加上连续的两个_或者*符号，即可把文本样式变为粗体。
+
 例子：`__Bold__`或者`**Bold**`
+
 效果：__Bold__
 
 ##### 分隔线
 
 分隔线标识独占一行，这行文本可以由0~3个空格开始，包含3个及以上的`_`、`-`或者`*`符号。符合上述描述的一行文本将被视为一个分隔线，这些符号之间可以包含任意数量的空格。
+
 例子：`---`或者`___`或者`***`或者` * ** * * * ** ***`或者`____ _____`。
+
 效果：
 
 ***
@@ -43,47 +49,56 @@ Markdown作为一种用于编写结构化文档的纯文本格式，它易读易
 ##### 引用
 
 在行首、文本前加上>，代表这行的本文是一行引用内容。
+
 例子：`>这句话引用自《blahblah》`
+
 效果：
 >这句话引用自《blahblah》
 
 ##### 无序列表
 
 新起一行，在列表项前加`*`或者`-`，再加一个或多个空格，来构成无序列表项。
+
 例子：
 ```
 - 茄子
 * 白菜
 - 萝卜
 ```
+
 效果：
 - 茄子
-* 白菜
+- 白菜
 - 萝卜
 
 ##### 有序列表
 
 新起一行，在列表项前加数字和`.`，再加一个或多个空格，来构成有序列表项。
 也可以用`)`来替代`.`。
+
 例子：
 ```
 1)  茄子
 2.  白菜
 3.  萝卜
 ```
+
 效果：
-1) 茄子
+1. 茄子
 2. 白菜
 3. 萝卜
 
 列表项前的数字无需有顺序，第一个数字将作为第一个序号被显示出来。无论如何书写剩下的数字标记，Markdown都会对序号自动进行顺序排列。
+
 例子：
 ```
 4.  茄子
 2.  白菜
 182.  萝卜
 ```
+
 效果：
+
 4.  茄子
 5.  白菜
 6.  萝卜
@@ -94,6 +109,7 @@ Markdown作为一种用于编写结构化文档的纯文本格式，它易读易
 
 例子：
 <code>接下来是代码内容\`std::cout<<"Hello World!"\`</code>
+
 效果：
 接下来是代码内容`std::cout<<"Hello World!"`
 
@@ -102,25 +118,32 @@ Markdown作为一种用于编写结构化文档的纯文本格式，它易读易
 代码块单独占用一至多行。只需在代码文本两侧使用<code>```</code>标记。
 
 例子：
+
 <code>\`\`\`
 int countNum = 1;
 std::cout<<countNum;
 \`\`\`</code>
+
 效果：
 ```
 int countNum = 1;
 std::cout<<countNum;
 ```
+
 也可以在一行前加一个Tab或者四个空格，则这行的内容被视为代码（这就是一行前一般不能加四个或四个以上空格的原因，加多了就成代码块了）。
+
 例子：
 <code><p>&nbsp;&nbsp;&nbsp;&nbsp;int countNum = 1;</p></code>
-效果：
 
-	int countNum = 1;
+效果：
+```
+int countNum = 1;
+```
 
 ##### 标题
 
 标题有1~6个级别，1级标题文字前加一个`#`号，再紧跟着一个或者多个空格。以此类推。
+
 例子：
 ```
 # 这是一个一级标题
@@ -130,6 +153,7 @@ std::cout<<countNum;
 ##### 这是一个五级标题
 ###### 这是一个六级标题
 ```
+
 效果：
 # 这是一个一级标题
 ## 这是一个二级标题
@@ -142,13 +166,12 @@ std::cout<<countNum;
 二级标题也可以通过在标题文本行的下一行写三个或以上的`-`符号来实现。
 
 例子：
-
-<code>
-这是一个一级标题</br>
-===</br>
-这是一个二级标题</br>
-----
-</code>
+```
+这是一个一级标题
+===
+这是一个二级标题
+-----
+```
 
 效果：
 
@@ -160,31 +183,47 @@ std::cout<<countNum;
 ##### 插入链接
 
 Markdown中插入链接有两种方式，一种是内联式（inline links），一种是参考式（reference links）。
+
 内联式的链接书写格式为：`[链接的文字描述](链接URL)`。
+
 参考式的链接书写格式为：`[链接的文字描述][链接标签名字]`。
+
 然后在任意空行定义链接标签（link label），定义链接标签的格式为：`[连接标签名字]:URL文本 "链接描述"`。
+
 其中，链接描述（双引号也是链接描述的一部分）是可选的。
+
 例子：
+
 `[github首页](https://github.com/)`
+
 `[我的github主页][R]`
+
 `[R]:https://github.com/TiriSane "这个链接是我的github主页"`
+
 效果：
 [github首页](https://github.com/)
 [我的github主页][R]
+
 当然，在URL文本两侧使用`<>`标记，也可以让URL文本可以作为本身URL的链接。
+
 例子：`<https://www.zhihu.com>`
+
 效果：<https://www.zhihu.com>
 
 ##### 插入图片
 
 插入图片和格式和插入链接类似，只是前面多加了一个`!`。
+
 例子：
+
 `[我的一个头像](https://ws1.sinaimg.cn/large/005K80gply1foqkrf6lv2j30c40d4tag.jpg)`
 `[我的另一个头像][T]`
 `[T]:https://ws1.sinaimg.cn/large/005K80gply1foqkturaj6j30sg0sgkjl.jpg "这张图片是我的另一个头像"`
+
 效果：
 ![我的一个头像](https://ws1.sinaimg.cn/large/005K80gply1foqkrf6lv2j30c40d4tag.jpg)
 ![我的另一个头像][T]
+
 如你所见，这种插入图片的方法是无法指定大小的，所以使用它可能导致你的排版很糟糕。（还好我画的小姐姐好看（逃）
 
 ##### Have A Break
@@ -198,5 +237,3 @@ Markdown中插入链接有两种方式，一种是内联式（inline links），
 
 [T]:https://ws1.sinaimg.cn/large/005K80gply1foqkturaj6j30sg0sgkjl.jpg  "这张图片是我的另一个头像"
 [R]:https://github.com/TiriSane "这个链接是我的github主页"
-[Rf1]:(https://daringfireball.net/projects/markdown/syntax) "John Gruber给出的语法"
-[Rf2]:(https://twitter.com/gruber/status/507364924340060160) "John Gruber在推特中的回应"
