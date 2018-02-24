@@ -221,6 +221,7 @@ Markdown中插入链接有两种方式，一种是内联式（inline links），
 `[T]:https://ws1.sinaimg.cn/large/005K80gply1foqkturaj6j30sg0sgkjl.jpg "这张图片是我的另一个头像"`
 
 效果：
+
 ![我的一个头像](https://ws1.sinaimg.cn/large/005K80gply1foqkrf6lv2j30c40d4tag.jpg)
 ![我的另一个头像][T]
 
