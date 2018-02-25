@@ -69,4 +69,4 @@ Markdown中的文本块可以分两种，一种可以含有其他的文本块，
 
 ##### Have A Break
 
-接下来的文章中，我们将分别通过非容器文本块、容器文本块 和 内联结构 三个维度了解Markdown符号更富有细节的用法。稍作休息，我们在下篇文章再见。
+接下来的文章中，我们将分别通过非容器文本块、容器文本块 和 内联结构 三个维度了解Markdown符号更富有细节的用法。稍作休息，我们在[下篇文章](https://github.com/TiriSane/MarkdownTutorial/blob/master/Markdown_Tutorial_3.md)再见。
