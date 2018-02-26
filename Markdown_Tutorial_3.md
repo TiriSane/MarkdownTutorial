@@ -4,7 +4,7 @@
 
 ##### 本章目标
 
-在[上一篇文章](https://github.com/TiriSane/MarkdownTutorial/blob/master/Markdown_Tutorial_2.md)里，我们已经了解了Markdown的基本概念。这篇文章主要讨论和Markdown的非容器文本块。我们把非容器文本块中Markdown语法分成3部分食用，所以下一篇文章我们仍然会讨论非容器文本块的内容。
+在[上一篇文章](https://github.com/TiriSane/MarkdownTutorial/blob/master/Markdown_Tutorial_2.md)里，我们已经了解了Markdown的基本概念。这篇文章主要讨论Markdown的非容器文本块。我们把非容器文本块中Markdown语法分成3部分食用，所以下一篇文章我们仍然会讨论非容器文本块的内容。
 
 ***
 
@@ -166,4 +166,4 @@ aaa
 
 ##### Have A Break
 
-接下来的文章中，我们将继续了解非容器文本块中那些Markdown符号更富有细节的用法。稍作休息，我们在下篇文章再见。
+接下来的两篇文章中，我们将继续了解非容器文本块中Markdown符号的那些更富有细节的用法。稍作休息，我们在下篇文章再见。
