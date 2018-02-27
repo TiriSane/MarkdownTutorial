@@ -21,7 +21,7 @@
 
 [R]:https://github.com "这个链接是github首页"
 
-其中，[R]开头的那行的文本内容就是**参考式链接定义**（Link reference definitions）。让我们一起看看参考式链接定义的一些具体的格式要求。
+其中，`[R]`开头的那行的文本内容就是**参考式链接定义**（Link reference definitions）。让我们一起看看参考式链接定义的一些具体的格式要求。
 
 ###### 1.1 格式说明
 
