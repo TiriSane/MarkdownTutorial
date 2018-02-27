@@ -166,4 +166,4 @@ aaa
 
 ##### Have A Break
 
-接下来的两篇文章中，我们将继续了解非容器文本块中Markdown符号的那些更富有细节的用法。稍作休息，我们在[下篇文章](https://github.com/TiriSane/MarkdownTutorial/edit/master/Markdown_Tutorial_4.md)再见。
+接下来的两篇文章中，我们将继续了解非容器文本块中Markdown符号的那些更富有细节的用法。稍作休息，我们在[下篇文章](https://github.com/TiriSane/MarkdownTutorial/blob/master/Markdown_Tutorial_3.md)再见。
