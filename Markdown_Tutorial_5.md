@@ -75,7 +75,7 @@
 
 ##### 2. Html块
 
-Markdown支持插入Html文本，插入的Html文本将会被作为Html内容解析出各种Html样式。虽然Markdown和Html是有渊源的，但一些学习Markdown用户只是想用它做样式不那么复杂的笔记。我们应该认为，会写会读html文本并非是学习并使用Html的条件。如果你不了解Html的语法，可以跳过这一部分。
+Markdown支持插入Html文本，插入的Html文本将会被作为Html内容解析出各种Html样式。虽然Markdown和Html是有渊源的，但一些学习Markdown用户只是想用它做样式不那么复杂的笔记。我们应该认为，会写会读Html文本并非是学习并使用Markdown的条件。如果你不了解Html的语法，可以跳过这一部分。
 
 另外一个很重要的就是，关于Markdown中应该怎样插入Html，Html又该被怎样解析，这并没有一个事实上的统一标准。
 
