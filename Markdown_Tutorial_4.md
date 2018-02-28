@@ -3,7 +3,7 @@
 ***
 ##### 本章目标
 
-在[上一篇文章](https://github.com/TiriSane/MarkdownTutorial/blob/master/Markdown_Tutorial_3.md)里，我们已经了解了一些属于Markdown非容器文本块的Markdown标记。这篇文章将继续讨论Markdown的非容器文本块。我们把非容器文本块中Markdown语法分成3部分食用，所以下一篇文章我们仍然会讨论非容器文本块的内容。
+在[上一篇文章](https://github.com/TiriSane/MarkdownTutorial/blob/master/Markdown_Tutorial_3.md)里，我们已经了解了一些属于Markdown非容器文本块的标记。这篇文章将继续讨论Markdown的非容器文本块。我们把非容器文本块中Markdown语法分成3部分食用，所以下一篇文章我们仍然会讨论非容器文本块的内容。
 
 ***
 
