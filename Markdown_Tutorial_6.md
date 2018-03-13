@@ -141,4 +141,4 @@ with two lines.
 
 ##### Have A Break
 
-至此，我们已经把非容器文本块都介绍完毕了。在接下来的一篇文章中，我们会了解到容器文本块中Markdown符号（主要是用于引用和列表的符号）的那些更富有细节的用法。稍作休息，我们在下篇文章再见。
+至此，我们已经把非容器文本块都介绍完毕了。在接下来的一篇文章中，我们会了解到容器文本块中Markdown符号（主要是用于引用和列表的符号）的那些更富有细节的用法。稍作休息，我们在[下篇文章](https://github.com/TiriSane/MarkdownTutorial/blob/master/Markdown_Tutorial_7.md)再见。
