@@ -26,8 +26,7 @@ Markdown中的参考链接有三种：完整参考链接，折叠式参考链接
 ```
 效果：
 
-[link [foo [bar]]][ref]
-[ref]: www.ubisoft.com
+[link [foo [bar]]](www.ubisoft.com)
 
 这里的链接文本`[link [foo [bar]]]`中含有3组成对的中括号，因此它可以作为正确的链接文本。否则，Markdown就会试图使链接文本平衡，并把多出来不成对的中括号当成链接标签的一部分。
 
@@ -47,7 +46,9 @@ Markdown中的参考链接有三种：完整参考链接，折叠式参考链接
 ```
 
 效果：
+
 [foo](www.baidu.com)
+
 [foo]: www.zhihu.com
 
 可以看到，上面的简单内联链接先被解析了，这导致下面的这行文本没有被是为是一个链接标签定义。
@@ -129,15 +130,21 @@ foo
 ##### 参考文章
 
 > [CommonMark官方规则文档 0.28版本](http://spec.commonmark.org/0.28/)
+
 > [CommonMark快速上手指南](http://commonmark.org/help/)
+
 > [交互式CommonMark新手指南](http://commonmark.org/help/tutorial/)
+
 > [Markdown中文网](http://www.markdown.cn/)
+
 > [Github 格式化书写语法参考](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
+
 > [Markdown 语法说明 (简体中文版)](https://www.appinn.com/markdown/index.html)
 
 ##### 特别鸣谢
 
 > [陈关州](http://www.chenguanzhou.com)
+
 > [小楠的次元](https://www.niconi.cn/)
 
 # EOF
