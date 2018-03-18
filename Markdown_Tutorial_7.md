@@ -141,6 +141,6 @@ CommonMark对于强调和斜体上规定了很多很严格而且繁琐的规则�
 
 ##### Have A Break
 
-至此，我们只剩下Markdown中的三种参考式链接、自动链接、插入图片、原始HTML内容、硬软换行和一些简单的内容和规范没有梳理了。如果你从Markdown Tutorial的第一部分看到这里，你几乎已经是半个手拿CommonMark法典的语言律师了！恭喜你，同时，这也意味着很快我们对Markdown语法各种细节和规定的讨论也要到尾声了。很快我们就会补全Markdown拼图的最后一块了，敬请期待吧。
+至此，我们只剩下Markdown中的三种参考式链接、自动链接、插入图片、硬软换行和一些简单的内容和规范没有梳理了。如果你从Markdown Tutorial的第一部分看到这里，你几乎已经是半个手拿CommonMark法典的语言律师了！恭喜你，同时，这也意味着很快我们对Markdown语法各种细节和规定的讨论也要到尾声了。很快我们就会补全Markdown拼图的最后一块了，敬请期待吧。
 
 稍作休息，我们在[下篇文章](https://github.com/TiriSane/MarkdownTutorial/blob/master/Markdown_Tutorial_8.md)再见。
