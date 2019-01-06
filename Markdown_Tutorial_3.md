@@ -22,7 +22,7 @@
 
 ###### 1.3 消除---的二义性
 
-关于[第一篇文章](https://github.com/TiriSane/MarkdownTutorial/blob/master/Markdown_Tutorial_1.md)末尾提到的问题，当由3个或3个以上`-`组成的一行既符合Markdown中分隔线的定义，又符合Markdown中二级标题的定义，此行将被视为一个二级标题，而非一条分隔线（依据是[上篇文章](https://github.com/TiriSane/MarkdownTutorial/blob/master/Markdown_Tutorial_2.md)中提到的：如果同一段文本里同时有表示构成块结构的Markdown符号标记和表示构成内联结构的Markdown符号标记。那么，表示构成块结构的Markdown语法标记会起作用）。
+关于[第一篇文章](https://github.com/TiriSane/MarkdownTutorial/blob/master/Markdown_Tutorial_1.md)末尾提到的问题，当由3个或3个以上`-`组成的一行既符合Markdown中分隔线的定义，又符合Markdown中二级标题的定义，此行将被视为一个二级标题，而非一条分隔线（依据是同为块结构的标题与分隔符，标题的优先级比较高）。
 
 ###### 1.4 分隔线优先于列表项被解析
 
@@ -38,7 +38,7 @@
 - * * *
 - Bar
 ```
-
+同为块结构的分隔符与列表项，分隔线的优先级比较高。
 ***
 
 ##### 2. ATX标题
