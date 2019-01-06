@@ -47,9 +47,6 @@
 <code>
 - `one
 </br>
-</code>
-
-<code>
 - two`
 </code>
 
