@@ -10,7 +10,8 @@
 ##### 1. 参考式链接定义
 
 在[第一篇文章](https://github.com/TiriSane/MarkdownTutorial/blob/master/Markdown_Tutorial_1.md)里我们提到过，Markdown中插入链接有两种方式，一种是内联式（inline links），一种是参考式（reference links）。
-例子：
+
+下面是一个参考式链接的例子：
 
 `[github首页][R]`
 
